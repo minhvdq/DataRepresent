@@ -1,0 +1,9 @@
+{
+    "datasets": [
+      { "label": "Red", "data": 300.0 },
+      { "label": "Blue", "data": 50.0 },
+      { "label": "Yellow", "data": 100.0 },
+      { "label": "Green", "data": 250.5 },
+      { "label": "Purple", "data": 75.3 }
+    ]
+  }

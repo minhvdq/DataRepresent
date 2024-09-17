@@ -1,0 +1,16 @@
+{
+    "datasets": [
+      { "label": "Jan", "data": 10.5 },
+      { "label": "Feb", "data": 19.8 },
+      { "label": "Mar", "data": 30.2 },
+      { "label": "Apr", "data": 40.0 },
+      { "label": "May", "data": 45.7 },
+      { "label": "Jun", "data": 35.9 },
+      { "label": "Jul", "data": 50.3 },
+      { "label": "Aug", "data": 55.1 },
+      { "label": "Sep", "data": 48.6 },
+      { "label": "Oct", "data": 52.0 },
+      { "label": "Nov", "data": 46.3 },
+      { "label": "Dec", "data": 60.8 }
+    ]
+  }

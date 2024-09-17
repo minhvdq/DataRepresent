@@ -1,0 +1,12 @@
+{
+    "datasets": [
+      { "label": "Product A", "data": 100.0 },
+      { "label": "Product B", "data": 150.5 },
+      { "label": "Product C", "data": 200.8 },
+      { "label": "Product D", "data": 175.2 },
+      { "label": "Product E", "data": 120.3 },
+      { "label": "Product F", "data": 160.7 },
+      { "label": "Product G", "data": 130.6 },
+      { "label": "Product H", "data": 190.4 }
+    ]
+  }

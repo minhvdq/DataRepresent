@@ -1,0 +1,58 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #1a202c; /* Dark background */
+    --foreground: #e2e8f0; /* Light foreground */
+  }
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+footer{
+  text-align: center
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+
+  .chart-container {
+    @apply bg-white p-4 shadow rounded-lg;
+  }
+
+  .chart-title {
+    @apply text-xl font-semibold mb-4;
+  }
+
+  .button-primary {
+    @apply bg-blue-500 text-white px-4 py-2 rounded shadow hover:bg-blue-600 transition;
+  }
+}
+
+.chart-container {
+  width: 100%;
+  max-width: 800px; 
+  height: auto;
+  margin: 0 auto; 
+  padding: 1rem; 
+}
+
+@media (max-width: 600px) {
+  .chart-container {
+    max-width: 100%; 
+    padding: 0.5rem;
+  }
+}
